@@ -1,0 +1,8 @@
+bash提示符
+$   #表示以普通用户身份登录
+#   #表示以root用户登录
+
+设置提示符
+[root@linuxprobe ~]# export PS1='[\u@\h \w]&'   #将提示符#变为&
+[root@linuxprobe ~]&
+
